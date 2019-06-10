@@ -39,15 +39,25 @@
     background-color: white;
     transform: translate(0,50%);
 }
-.icon-work{
+.icon-work-left{
     width: 100px;
     height: 100px;
     line-height: 110px;
     border: 2px solid #000;
     border-radius: 50px;
     font-size: 3em;
+    float: right;
+}
+.icon-work-right{
+    width: 100px;
+    height: 100px;
+    line-height: 110px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    font-size: 3em;
+    float: left;
 }
 .row-work{
-    width: 70%;
+    width: 100%;
     margin-bottom: 1.5rem;
 }
