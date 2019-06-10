@@ -21,6 +21,10 @@
     width: 100%;
     height: 20vh;
 }
+.space-10{
+    width: 100%;
+    height: 10vh;
+}
 .header-section{
     border-right: none;
     border-left: none;
@@ -34,4 +38,16 @@
     height: 100%;
     background-color: white;
     transform: translate(0,50%);
+}
+.icon-work{
+    width: 100px;
+    height: 100px;
+    line-height: 110px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    font-size: 3em;
+}
+.row-work{
+    width: 70%;
+    margin-bottom: 1.5rem;
 }
