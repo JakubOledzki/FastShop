@@ -8,6 +8,7 @@
 body{
     overflow-y: scroll; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
 }
 .bg-home{
     background-image: url(img/home-bg.jpg);
@@ -21,7 +22,7 @@ body{
     width: 50%;
 }
 .col-phone{
-    bottom: -15vh;
+    bottom: -14vh;
 }
 .space-20{
     width: 100%;
@@ -98,6 +99,9 @@ a:hover{
 }
 .bars{
     font-size: 2rem;
+}
+#work,#about,#offer,#contact{
+    padding-top: 20vh;
 }
 /*.navbar-own:before{
     content: '';

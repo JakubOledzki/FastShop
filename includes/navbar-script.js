@@ -1,3 +1,9 @@
+function autoscroll(div){
+	$('html, body').animate({
+		scrollTop: $(div).offset().top
+	},1000);
+}
+
 function checkPositionScroll(){
     
     var nav = document.querySelector(".navbar-own");
