@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -77,8 +79,25 @@ body{
     left: 0;
     width: 100%;
     z-index: 9999;
-    background: #FFF;
-    transition: 0.3s;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.20);
+    color: #000;
+}
+a{
+    color: #f8f9fa;
+}
+a:hover{
+    color: #f8f9fa;
+}
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+.title-header{
+    font-family: "Anton", sans-serif;
+}
+.bars{
+    font-size: 2rem;
 }
 /*.navbar-own:before{
     content: '';
