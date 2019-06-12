@@ -77,19 +77,16 @@ body{
     left: 0;
     width: 100%;
     z-index: 9999;
-    background: transparent;
+    background: #FFF;
     transition: 0.3s;
 }
-.navbar-own:before{
+/*.navbar-own:before{
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(72, 44, 191);
-    background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
     z-index: -1;
     opacity: 0;
     transition: 0.3s;
@@ -102,4 +99,4 @@ body{
 
 .navbar-own.affix:before {
     opacity: 1;
-}
+}*/
