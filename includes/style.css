@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
 }
 .bg-home{
     background-image: url(img/home-bg.jpg);
