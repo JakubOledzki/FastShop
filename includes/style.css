@@ -163,23 +163,6 @@ a:hover{
 .js-loading{
     animation-play-state: paused;
 }
-/*.navbar-own:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0;
-    transition: 0.3s;
-    
+.text-work{
+    font-weight: 500;
 }
-.navbar-own.affix {
-    position: fixed;
-    top: 0;
-}
-
-.navbar-own.affix:before {
-    opacity: 1;
-}*/
