@@ -18,6 +18,12 @@
     
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="includes/scrolling-nav.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    <link rel="stylesheet" href="css/animation.css">
+    <script>new WOW().init();</script>
     
 
     <title>FastShop - kupuj szybciej</title>
@@ -33,7 +39,7 @@
     <nav class="navbar navbar-expand-md navbar-own" data-offset-top="200" data-spy="affix" aria-expanded="false" id="mainNav">
         <a class="navbar-brand" href="#fastshop">Fast Shop</a>
         
-        <button class="navbar-toggler ml-auto" type="button" data-target="#navbarResponsive" data-toggle="collapse" aria-expanded="false">
+        <button class="navbar-toggler ml-auto" type="button" data-target="#navbarResponsive" data-toggle="collapse" aria-controls="navbarResponsive" aria-expanded="false">
             <span class="fas fa-bars bars text-light"></span>
         </button>
         
@@ -62,11 +68,11 @@
     <div class="container-fluid bg-home padding-home">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 text-light text-center">
-                <h1 class="title-header display-3">FastShop</h1>
-                <p class="lead">Kupuj szybciej, bez czekania w kolejce</p>
+                <h1 class="title-header display-3 fadeInUp wow js-loading" data-wow-duration="2s" data-wow-delay="1s">FastShop</h1>
+                <p class="lead fadeInUp wow js-loading" data-wow-duration="2s" data-wow-delay="2s">Kupuj szybciej, bez czekania w kolejce</p>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 text-center col-phone">
-                <img class="phone" src="includes/img/phone.png" id="phone">
+                <img class="phone fadeInUp wow js-loading" data-wow-duration="2s" data-wow-delay="1.5s" src="includes/img/phone.png" id="phone">
             </div>
         </div>  
     </div>
@@ -78,28 +84,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-10 col-sm-10 col-md-8 col-lg-5 mx-auto header-section">
-                    <div class="text-center header-text h2 mx-auto">Jak to działa ?</div>
+                    <h1 class="text-center header-text h2 mx-auto">Jak to działa ?</h1>
                 </div>
             </div>
             <div class="space-10"></div>
             <!-- CREATE LIST-->
             <div class="row row-work mx-auto d-flex align-items-center">
                 <div class="col-4 col-sm-4 col-md-4 col-lg-4 ">
-                    <div class="icon-work-left text-center"><i class="fas fa-mobile-alt display-3"></i></div>
+                    <div class="icon-work-left text-center wow fadeInLeft js-loading" data-wow-duration="2s" data-wow-delay="0s"><i class="fas fa-mobile-alt display-3"></i></div>
                 </div>
                 <div class="col-8 col-sm-8 col-md-8 col-lg-8">
-                    <p class="text-left lead text-work">Stwórz listę zakupów przez aplikację Android/IOS</p>
+                    <p class="text-left lead text-work wow fadeInRight js-loading" data-wow-duration="2s" data-wow-delay="0s">Stwórz listę zakupów przez aplikację Android/IOS</p>
                 </div>
             </div>
             <!-- END CREATE LIST-->
             
             <!-- PAY -->
             <div class="row row-work mx-auto d-flex align-items-center">
-                <div class="col-8 col-sm-8 col-md-8 col-lg-8">
-                    <p class="text-right lead text-work">Zapłać przez internet za koszyk z zakupami</p>
+                <div class="col-8 col-sm-8 col-md-8 col-lg-8 ">
+                    <p class="text-right lead text-work wow fadeInLeft js-loading" data-wow-duration="2s" data-wow-delay="0s">Zapłać przez internet za koszyk z zakupami</p>
                 </div>
                 <div class="col-4 col-sm-4 col-md-4 col-lg-4">
-                    <div class="icon-work-right text-center"><i class="fas fa-shopping-cart display-4"></i></div>
+                    <div class="icon-work-right text-center wow fadeInRight js-loading" data-wow-duration="2s" data-wow-delay="0s"><i class="fas fa-shopping-cart display-4"></i></div>
                 </div>
             </div>
             <!-- END PAY-->
@@ -107,10 +113,10 @@
             <!-- PAY -->
             <div class="row row-work mx-auto d-flex align-items-center">
                 <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-left">
-                    <div class="icon-work-left text-center"><i class="fas fa-running display-3"></i></div>
+                    <div class="icon-work-left text-center wow fadeInLeft js-loading" data-wow-duration="2s" data-wow-delay="0s"><i class="fas fa-running display-3"></i></div>
                 </div>
                 <div class="col-8 col-sm-8 col-md-8 col-lg-8">
-                    <p class="text-left lead text-work">Zapierdalaj do sklepu po zakupy</p>
+                    <p class="text-left lead text-work wow fadeInRight js-loading" data-wow-duration="2s" data-wow-delay="0s">Zapierdalaj do sklepu po zakupy</p>
                 </div>
             </div>
             <!-- END PAY-->
@@ -129,9 +135,9 @@
             </div>
             <div class="space-10"></div>
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6"><img class="about-img" src="includes/img/power_rangers.jpg"></div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6"><img class="about-img wow fadeInLeft js-loading" data-wow-duration="3s" data-wow-delay="1s" src="includes/img/power_rangers.jpg"></div>
                 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dictum facilisis lorem sed faucibus. Sed at rutrum eros. Maecenas sapien purus, tempus sed ultrices sed, laoreet et elit. Donec tristique consequat metus in consequat. Vivamus maximus purus quis mollis mollis. Sed ac nunc sed est tempor pellentesque. Maecenas fringilla arcu.</p></div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6"><p class="lead wow fadeInUp js-loading" data-wow-duration="2s" data-wow-delay="0s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dictum facilisis lorem sed faucibus. Sed at rutrum eros. Maecenas sapien purus, tempus sed ultrices sed, laoreet et elit. Donec tristique consequat metus in consequat. Vivamus maximus purus quis mollis mollis. Sed ac nunc sed est tempor pellentesque. Maecenas fringilla arcu.</p></div>
             </div>
         </div>
     </div>

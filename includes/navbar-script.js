@@ -27,4 +27,6 @@ function checkPositionScroll(){
         nav.style.position = "absolute";
     }
 }
+
+
 window.addEventListener("scroll", checkPositionScroll);

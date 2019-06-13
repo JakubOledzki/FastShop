@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
     
     $('#phone').css("visibility","hidden");
     setTimeout(function(){
@@ -13,4 +13,4 @@ $(document).ready(function(){
 		  scrollTop: $("#offer").offset().top
 	   },1000);                    
     });*/
-});
+/*});*/

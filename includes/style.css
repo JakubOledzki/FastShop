@@ -109,22 +109,16 @@ body{
     background-color: white;
     transform: translate(0,50%);
 }
-.icon-work-left{
+.icon-work-left,.icon-work-right{
     width: 100px;
     height: 100px;
     line-height: 110px;
-    border: 2px solid #000;
+    border: 2px solid #212529;
     border-radius: 50px;
     font-size: 3em;
     float: right;
 }
 .icon-work-right{
-    width: 100px;
-    height: 100px;
-    line-height: 110px;
-    border: 2px solid #000;
-    border-radius: 50px;
-    font-size: 3em;
     float: left;
 }
 .row-work{
@@ -165,6 +159,9 @@ a:hover{
 }
 #work,#about,#offer,#contact{
     padding-top: 20vh;
+}
+.js-loading{
+    animation-play-state: paused;
 }
 /*.navbar-own:before{
     content: '';
